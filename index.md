@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/nhoofficial/Web-development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nhoofficial/Web-development/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<html>
+    <head>
+        <title>Web page warmup</title>
+        <link rel="stylesheet" href="styel.css">
+    </head>
+    <body>
+        <h1 style="background-color: dimgray;"><font style="color: ghostwhite;">Hello Everyone</font></h1>     
+        <div class="Sign-up-form">
+            <form style="text-align: center;">
+                <h1><font style="text-align: center;">Sign up your id here!</font></h1>
+            Your password:<input type="email" class="input-box" placeholder="Your email"><br>
+            Your email:<input type="password" class="input-box" placeholder="your password">
+            <button type="submit" class="signup-btn">Log In</button>
+            <hr><p class="or">Or</p>
+            <u><h1><header>Create an account</header></h1></u><br>
+            Name: <input type="text"><br>
+            Email: <input type="email"><br>
+            Password: <input type="password"><br>
+            Confirm Password: <input type="password">
+            <br> <input type="checkbox"> I agree to the terms and condition
+            <button type="submit">Sign Up</button>
+            </form>
+        </div>    
+    </body>
+</html>
